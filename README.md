@@ -29,12 +29,12 @@ This project provides a minimal working example of the Model Context Protocol (M
 ### 3. Install dependencies
 
 ```bash
-uv pip install -r requirements.txt
+	uv pip install -r requirements.txt
 ```
 ---
 
 ## Server
-Your agent tools (e.g., summarize_text, code executin, etc.) should be implemented in server.py
+Agent tools (e.g., summarize_text, code executin, etc.) should be implemented in server.py
 Run the server with:
 
 ```bash
@@ -57,7 +57,7 @@ Run using:
 	python client.py
 ```
 
-It connects to the MCP server and calls tools like: `summarize_text`, `cat_fact`, `execute_code present` in server.py 
+It connects to the MCP server and calls tools like: `summarize_text`, `cat_fact`, `execute_code present` from server.py 
 
 
 After running we can see results in terminal for now
